@@ -30,5 +30,4 @@ jobs:
     - name: Build
       run: |
         python build.py
-      working-directory: "./Dungeon Knightmare/build.py"
-        
+          
