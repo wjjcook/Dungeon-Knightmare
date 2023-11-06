@@ -7,11 +7,11 @@ def main():
     pyinstaller_command = [
         "pyinstaller",
         "--noconfirm",
-        "--onedir",      # Create a single executable file
+        "--onedir", 
         "--windowed",
-        "--add-data", "graphics;graphics/", "--add-data", "code;code/", "--add-data", "map.json;.",
-        "code/game.py",  # Replace with the entry script of your project
-        "--name", "Dungeon Knightmare",  # Name of the executable file (you can customize this)
+        "--add-data=graphics;graphics/", "--add-data=code;code/", "--add-data=map.json;.",
+        "code/game.py",  # Entry script
+        "--name", "Dungeon Knightmare",  # Name of the executable file
     ]
 
     try:
