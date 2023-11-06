@@ -1,7 +1,7 @@
 # Dungeon-Knightmare
 A first attempt at building a platformer using pygame.
 
-This is a personal project that I wanted to create so I could start learning game development.
+This is a personal project that I created to start learning game development.
 The game is WIP as I have not added things like animations, audio, improved art, a menu, other levels, etc.
 
 To play the game, run the Dungeon-Knightmare.exe file in the Dungeon-Knightmare directory.
