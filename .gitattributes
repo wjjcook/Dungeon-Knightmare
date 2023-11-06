@@ -1,2 +1,2 @@
-*.dll linguist-language=py
-*.pyd linguist-language=py
+dist/** linguist-vendored
+build/** linguist-vendored
