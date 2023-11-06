@@ -10,8 +10,8 @@ def main():
         "--onedir", 
         "--windowed",
         "--add-data=graphics;graphics/", "--add-data=code;code/", "--add-data=map.json;.",
-        "code/game.py",  # Entry script
-        "--name", "Dungeon Knightmare",  # Name of the executable file
+        "code/game.py",
+        "--name", "Dungeon Knightmare",
     ]
 
     try:
